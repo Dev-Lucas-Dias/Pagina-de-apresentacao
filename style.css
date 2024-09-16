@@ -220,8 +220,14 @@ aside{
         color: var(--text-color);
         display: flex;
         align-items: end;
+        margin-bottom: 3.0rem;
 
     }
+}
+span{
+    font-size: 2.5rem;
+    font-family: "Inter", sans-serif;
+    color: var(--text-color);
 }
  /* social links*/
  #social-links{
@@ -229,6 +235,7 @@ aside{
     justify-content: center;
     padding: 24px 0;
     font-size: 3.0rem;
+    text-align: center;
  }
  #social-links a {
     display: flex; 
